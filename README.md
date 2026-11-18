@@ -7,8 +7,8 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Table of Contents
 
 - [Kernel Agents](#kernel-agents)
+- [Verification](#verification)
 - [Benchmarks](#benchmarks)
-- [Tooling](#tooling)
 
 ## Kernel Agents
 
@@ -18,12 +18,14 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [KernelAgent](https://github.com/meta-pytorch/KernelAgent) - Autonomous GPU kernel generation and optimization via deep agents.
 - [openevolve](https://github.com/algorithmicsuperintelligence/openevolve) - Open-source AlphaEvolve implementation, used for evolutionary kernel search.
 
+## Verification
+
+- [sentryward](https://github.com/gpu-verifier/sentryward) - Automatic formal verification for warp-specialized GPU kernels.
+- [TIRx-harness](https://github.com/mlc-ai/TIRx-harness) - An open compiler harness for agentic GPU programming, with a kernel DSL, compiler analyses, a knowledge base, and a benchmark server.
+- [vstack](https://github.com/hao-ai-lab/vstack) - Formal verification workflow and skill stack for coding agents (TLA+, Z3, Apalache, TLAPS), with anti-cheating gates.
+
 ## Benchmarks
 
 - [flashinfer-bench](https://github.com/flashinfer-ai/flashinfer-bench) - Building the virtuous cycle for AI-driven LLM systems; benchmark for AI-generated serving kernels.
 - [KernelBench](https://github.com/ScalingIntelligence/KernelBench) - Can LLMs write GPU kernels? Benchmark and toolkit for Torch -> CUDA (and more DSLs).
 - [kernelbot](https://github.com/gpu-mode/kernelbot) - Write a fast kernel and compare against the best humans and AI on gpumode.com.
-
-## Tooling
-
-- [sentryward](https://github.com/gpu-verifier/sentryward) - Automatic formal verification for warp-specialized GPU kernels.
